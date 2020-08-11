@@ -1,16 +1,21 @@
 import * as React from 'react';
 import './bottomItem.css'
-import { Space } from "antd";
+import Chart1 from '../../../charts/Chart1';
+import Chart2 from '../../../charts/Chart2';
 
 /**
  * 组件BottonItem
  */
 const BottonItem: React.FC = () => {
   return (
-    <Space className="bottom_item" size="large">
-      <div className="left_chart">1</div>
-      <div className="right_chart">2</div>
-    </Space>
+    <div className="bottom_item">
+      <div className="left_chart">
+        <Chart1 />
+      </div>
+      <div className="right_chart">
+        <Chart2 />
+      </div>
+    </div>
   )
 }
 export default BottonItem
