@@ -1,0 +1,22 @@
+.show, .show .show_layout{
+  height: 100%;
+}
+.site-layout-background .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.site-layout-background .quit_btn{
+  position: fixed;
+  right: 24px;
+  top: 15px;
+}
+.site-layout-background .trigger:hover {
+  color: #1890ff;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
